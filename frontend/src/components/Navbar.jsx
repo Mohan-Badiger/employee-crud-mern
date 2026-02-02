@@ -6,7 +6,7 @@ const Navbar = () => {
 
     return (
         <div className="bg-neutral-900 border-b border-neutral-800 text-white p-4 flex justify-between items-center">
-            <h1 className="text-xl font-bold tracking-wider">EMP<span className="text-blue-500">MGR</span></h1>
+            <h1 className="text-xl font-bold tracking-wider">EMP<span className="text-blue-500">Manager</span></h1>
             <div className="flex items-center gap-4">
                 <span>{user?.name}</span>
                 <button

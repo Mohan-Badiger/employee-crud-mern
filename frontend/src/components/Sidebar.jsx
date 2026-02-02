@@ -13,10 +13,10 @@ const Sidebar = () => {
         <div className="w-64 bg-neutral-900 h-screen border-r border-neutral-800 flex flex-col p-4">
 
             <nav className="flex-1 space-y-2 mt-4">
-                <Link to="/" className={`flex items-center gap-3 px-4 py-3 rounded-xl transition-all ${isActive('/')}`}>
+                <Link to="/" className={`flex items-center gap-3 px-4 py-3 rounded-md transition-all ${isActive('/')}`}>
                     <FaChartBar /> Dashboard
                 </Link>
-                <Link to="/employees" className={`flex items-center gap-3 px-4 py-3 rounded-xl transition-all ${isActive('/employees')}`}>
+                <Link to="/employees" className={`flex items-center gap-3 px-4 py-3 rounded-md transition-all ${isActive('/employees')}`}>
                     <FaUserTie /> Employees
                 </Link>
             </nav>
