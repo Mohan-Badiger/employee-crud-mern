@@ -28,7 +28,7 @@ const Register = () => {
     return (
         <div className="min-h-screen flex items-center justify-center bg-black text-white relative overflow-hidden">
 
-            <div className="glass p-8 rounded-2xl w-full max-w-md z-10">
+            <div className="glass p-8 rounded-md w-full max-w-md z-10">
                 <h2 className="text-3xl font-bold mb-6 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Create Account</h2>
 
                 {error && <div className="bg-red-500/10 border border-red-500/50 text-red-500 p-3 rounded mb-4 text-sm">{error}</div>}
@@ -39,7 +39,7 @@ const Register = () => {
                         <input
                             type="text"
                             name="name"
-                            className="w-full bg-neutral-900 border border-neutral-800 rounded-lg p-3 text-white focus:border-purple-500 focus:outline-none transition-colors"
+                            className="w-full bg-neutral-900 border border-neutral-800 rounded-sm p-3 text-white focus:border-purple-500 focus:outline-none transition-colors"
                             value={formData.name}
                             onChange={handleChange}
                             required
@@ -50,7 +50,7 @@ const Register = () => {
                         <input
                             type="email"
                             name="email"
-                            className="w-full bg-neutral-900 border border-neutral-800 rounded-lg p-3 text-white focus:border-purple-500 focus:outline-none transition-colors"
+                            className="w-full bg-neutral-900 border border-neutral-800 rounded-sm p-3 text-white focus:border-purple-500 focus:outline-none transition-colors"
                             value={formData.email}
                             onChange={handleChange}
                             required
@@ -61,7 +61,7 @@ const Register = () => {
                         <input
                             type="password"
                             name="password"
-                            className="w-full bg-neutral-900 border border-neutral-800 rounded-lg p-3 text-white focus:border-purple-500 focus:outline-none transition-colors"
+                            className="w-full bg-neutral-900 border border-neutral-800 rounded-sm p-3 text-white focus:border-purple-500 focus:outline-none transition-colors"
                             value={formData.password}
                             onChange={handleChange}
                             required
@@ -72,7 +72,7 @@ const Register = () => {
                         <input
                             type="password"
                             name="confirmPassword"
-                            className="w-full bg-neutral-900 border border-neutral-800 rounded-lg p-3 text-white focus:border-purple-500 focus:outline-none transition-colors"
+                            className="w-full bg-neutral-900 border border-neutral-800 rounded-sm p-3 text-white focus:border-purple-500 focus:outline-none transition-colors"
                             value={formData.confirmPassword}
                             onChange={handleChange}
                             required
@@ -81,7 +81,7 @@ const Register = () => {
 
                     <button
                         type="submit"
-                        className="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 rounded-lg transition-all transform hover:scale-[1.02]"
+                        className="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 rounded-sm transition-all transform hover:scale-[1.02]"
                     >
                         Register
                     </button>
