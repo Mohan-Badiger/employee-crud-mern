@@ -23,7 +23,7 @@ const Sidebar = () => {
 
             <button
                 onClick={logout}
-                className="flex items-center gap-3 px-4 py-3 text-red-400 hover:bg-red-500/10 hover:text-red-500 rounded-xl transition-all mt-auto"
+                className="flex items-center gap-3 px-4 py-3 text-red-400 hover:bg-red-500/10 hover:text-red-500 rounded transition-all mt-auto"
             >
                 <FaSignOutAlt /> Logout
             </button>
